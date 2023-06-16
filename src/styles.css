@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gradient-background {
+  background: linear-gradient(
+    to right,
+    rgb(244, 67, 54),
+    rgb(233, 30, 99),
+    rgb(156, 39, 176),
+    rgb(103, 58, 183),
+    rgb(63, 81, 181),
+    rgb(33, 150, 243),
+    rgb(3, 169, 244),
+    rgb(0, 188, 212),
+    rgb(0, 150, 136),
+    rgb(76, 175, 80),
+    rgb(139, 195, 74),
+    rgb(205, 220, 57),
+    rgb(255, 235, 59),
+    rgb(255, 193, 7)
+  );
+  background-size: 200% auto;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.follower-count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f9a825;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle span {
+  color: #f9a825;
+}
+
+.follower-count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/150.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f9a825;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle span {
+  color: #f9a825;
+}
